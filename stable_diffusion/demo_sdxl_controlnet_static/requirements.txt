@@ -1,0 +1,7 @@
+torch --index-url https://download.pytorch.org/whl/cpu
+openvino --pre --extra-index-url https://storage.openvinotoolkit.org/simple/wheels/nightly
+diffusers
+accelerate
+controlnet-aux
+git+https://github.com/TianmengChen/optimum-intel-controlnet.git@stable-diffusion-controlnet-support#egg=optimum-intel
+git+https://github.com/TianmengChen/optimum.git@stable-diffusion-controlnet-optimum#egg=optimum
